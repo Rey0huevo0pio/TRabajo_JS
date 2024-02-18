@@ -1,0 +1,46 @@
+body{
+    background: url(5.jpg);
+    background: teal;
+}
+
+div{
+    background-color:thistle;
+    border-radius: 9px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px){
+    div{
+        background-color: thistle;
+    }
+    .mob{
+        display: none;
+    }
+
+}
+h1{
+    text-align: center;
+}
+img{
+    display: block;
+    
+    border-radius: 50%;
+    float:right;
+    height: 130px;
+    width: 130px;
+    flex-direction: row;
+    border: 3px solid;
+}
+#titulo{
+    font-family: sans-serif;
+    font-size: 30px;
+    align-items: center;
+    
+    
+}
+
+#box{
+    text-align: center;
+    text-shadow: 5px 10px 10px #333;
+}
